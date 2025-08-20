@@ -7,11 +7,17 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  
-<h2>Order Form:</h2>
+<nav>
+    <nav>
+      <a href="./index.html">Home</a>
+      <a href="./orderform.html">Order</a>
+      <a href="./menu.html">Menu</a>
+    </nav>
+</nav>  
+<h1><u>Order Form</u></h1>
 
 <form>
-  <h4>Burgers: </h4>
+  <h3>Burgers:</h3>
   <label for="black-bean-burger">Black Bean Burger: </label>
   <input type="number" id="black-bean-burger" min="0" style="width:60px" required />
   <br><br>
@@ -22,7 +28,7 @@
   <input type="number" id="salmon-burger" min="0" style="width:60px" required/>
   <br><br>
 
-  <h4>Sauces:</h4>
+  <h3>Sauces:</h3>
   <label for="ketchup">Ketchup</label>
   <input type="checkbox" id="ketchup" name="sauces" value="ketchup">
   <label for="mustard">Mustard</label>
@@ -33,14 +39,14 @@
   <input type="checkbox" id="buffalo" name="sauces" value="buffalo">
   <br>
 
-  <h4>Sides:</h4>
+  <h3>Sides:</h3>
   <label for="sweetpotatoes">Sweet Potatoes</label>
   <input type="radio" id="sweetpotatoes" name="sides" value="Sweet Fries">
   <label for="regularfries">Regular Fries</label>
   <input type="radio" id="regularfries" name="sides" value="Regular Fries">
   <br>
 
-  <h4>Special requests:</h4>
+  <h3>Special requests:</h3>
   <label for="special-requests">Special Requests</label>
     <textarea id="special-requests" name="special-requests"></textarea>
   <br><br>
